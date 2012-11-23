@@ -1,15 +1,14 @@
-# Sample - CDI - Bootstrapping
+# Sample - EJB - Lookup JNDI
 
 ## Purpose of this sample
 
-The purpose of this sample is to show you how to bootstrap CDI (Weld) in several ways :
+The purpose of this sample is to show you how to lookup EJB using portable JNDI names. You'll see how to make the difference between namespaces :
 
-* Using EJBs 3.1 in GlassFish 3.x
-* Using Servlets 3.0 in GlassFish 3.x
-* In Java SE 6
-* Using Servlets 2.5 in Tomcat 6
-* Using Servlets 2.5 in Jetty 6
-* Using Servlets 2.5 in Jetty 7
+* global
+* app
+* module
+* lookups between different jars and wars
+* changing the default module names
 
 [Read more on my blog](http://antoniogoncalves.org/2011/01/12/bootstrapping-cdi-in-several-environments/)
 
